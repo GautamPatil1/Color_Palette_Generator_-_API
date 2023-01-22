@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+</head>
+<body>
+    <div class="container" id="container">
+        <center>
+            <div id="container-heading">
+                <h1>Color Palette Generator</h1>
+                <p>Create a Color Palette Online</p>
+                <div id="btn">
+                    <button id ="button">Generate</button>
+                </div>
+                <small>
+                    Click on the color to copy the hex code.
+                </small>
+            </div>
+        </center>
+        <div id="container-colors">
+            <div class="color-box" id="color-box-1"></div>
+            <div class="color-box" id="color-box-2"></div>
+            <div class="color-box" id="color-box-3"></div>
+            <div class="color-box" id="color-box-4"></div>
+            <div class="color-box" id="color-box-5"></div>
+            <div class="color-box" id="color-box-6"></div>
+            <div class="color-box" id="color-box-7"></div>
+            <div class="color-box" id="color-box-8"></div>
+            <div class="color-box" id="color-box-9"></div>
+            <div class="color-box" id="color-box-10"></div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <div id="api-container" class="api-container">
+                <div id="api-heading">
+                    <h1>API</h1>
+                    <p>Get the color palette in JSON format</p>
+                    <br>
+                    <br>
+                </div>
+                <div id="api-input">
+                    <h2>API Documentation</h2>
+                    <br>
+                    <br>
+                    <h3>Get a color palette of Four colors of same shade hue color using this endpoint: <a href="https://gautampatil.pythonanywhere.com/palette" target="_blank">https://gautampatil.pythonanywhere.com/palette</a> the response will be in a json format.</h3>
+                    <h3>Get API response in json format with required no of colors using this endpoint: <a href="https://gautampatil.pythonanywhere.com/palette/10" target="_blank">https://gautampatil.pythonanywhere.com/palette/[no_of_colors]</a></h3>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div id="api-output">
+                    <p id="api-output-text"></p>
+                </div>
+            </div>
+        </center>
+
+    </div>
+    
+</body>
+<script src="/static/js/script.js"></script>
+</html>

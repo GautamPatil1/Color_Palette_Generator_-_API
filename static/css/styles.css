@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'popins', sans-serif;
+}
+
+#container-heading{
+    margin-top: 3.5rem;
+    font: 'poppins', sans-serif;
+    font-size: 25px;
+    width: 100%;
+}
+
+#container-colors{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 3.5rem 5rem 0 5rem;
+    padding: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.color-box{
+    display: none;
+    text-align: center;
+    padding-top: 12rem;
+    border: 1px white;
+    flex: 1;
+    width: 100px;
+    height: 400px;
+    float: left;
+    background-color: red;
+    
+}
+
+
+#btn{
+    margin-top: 2rem;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(86, 132, 212);
+    border: 2px solid black;
+    width: 250px;
+    height: 70px;
+    color:white;
+    font-size: 35px;
+    padding: .5rem;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: white ;
+    transition: .3s;
+    color: black;
+    border: 2px solid black;
+    width: 250px;
+    height: 70px;
+    font-size: 35px;
+    padding: .5rem;
+    border-radius: 25px;
+}
+small{
+    font-family: 'poppins', sans-serif;
+    color: grey;
+    font-size: 15px;
+}
+h3{
+    margin: 2rem 20rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+    #container-colors {
+      flex-direction: column;
+      margin: 3.5rem 1.5rem;
+    }
+    .color-box {
+      width: 100%;
+      height: 200px;
+      padding-top: 3rem;
+    }
+  }
+  
